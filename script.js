@@ -13,7 +13,6 @@ document.addEventListener("DOMContentLoaded", () => {
                 if(cardHeader != event.currentTarget) {
                     cardBody.classList.add("card-body-none");
                     cardHeaderImg.classList.remove("img-rotation");
-           
                     cardHeadingH2.classList.remove("card-heading-h2");
                 }
                 else{
